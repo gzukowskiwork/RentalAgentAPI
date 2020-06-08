@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Repository.AddressRepository">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwEAACABAAAAAIAgAAAAAACBAAAAAgAQIAAAAAAAAA=</HashCode>
+      <FileName>AddressRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Repository.InvoiceRepository">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAEAEAAAAAABAABAAAEAABEAAAAIAEAAEAA=</HashCode>
+      <FileName>InvoiceRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Repository.LandlordRepository">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiQCQIAAAgBIMCgwAAAAAKABIAAAAAMAIAAAAA=</HashCode>
+      <FileName>LandlordRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Repository.PhotoRepository">
+    <Position X="15" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAAAACAAAAAAAAAAAQAAAAAAAAAIgAAAAAA=</HashCode>
+      <FileName>PhotoRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Repository.PropertyRepository">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Repository.RepositoryBase&lt;T&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="3.017" />
+        <Point X="10.75" Y="3.375" />
+        <Point X="3.562" Y="3.375" />
+        <Point X="3.562" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAFgAAAAAAAAABAIAMAqAAAQAAAEAAABBBiBEABAQRQ=</HashCode>
+      <FileName>PropertyRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Repository.RateRepository">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAgBABAQAAAA=</HashCode>
+      <FileName>RateRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Repository.RentRepository">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAgEAAAAmAAAwAIAAkgICAAEAgAAAgCACAgAAoAI=</HashCode>
+      <FileName>RentRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Repository.RepositoryBase&lt;T&gt;">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAEAAAAAAQAAAAAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Repository.RepositoryWrapper">
+    <Position X="16" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAIAAAABIBCAAACABCAAAACAAAAACAAQABUAEAQA=</HashCode>
+      <FileName>RepositoryWrapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.531" />
+  </Class>
+  <Class Name="Repository.StateRepository">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAQCCAACAAABABAAhAIAAAAAgAREAAIAA=</HashCode>
+      <FileName>StateRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Repository.TenantRepository">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQQAAAgQAQgAAoABAEAACACAEAAEAAAAACYIAEIAAA=</HashCode>
+      <FileName>TenantRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Entities.Models.Address">
+    <Position X="0.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entities.Models.ApplicationUser">
+    <Position X="2" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entities.Models.Invoice">
+    <Position X="3.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entities.Models.Landlord">
+    <Position X="5" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entities.Models.Photo">
+    <Position X="6.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entities.Models.Property">
+    <Position X="8" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entities.Models.Rate">
+    <Position X="11" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entities.Models.Rent">
+    <Position X="9.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entities.Models.State">
+    <Position X="12.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entities.Models.Tenant">
+    <Position X="14" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Contracts.IAddressRepository">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.IInvoiceRepository">
+    <Position X="4" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.ILandlordRepository">
+    <Position X="7.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.ILoggerManager">
+    <Position X="17.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.IPhotoRepository">
+    <Position X="2.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.IPropertyRepository">
+    <Position X="5.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.IRateRepository">
+    <Position X="9.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.IRentRepository">
+    <Position X="12.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.IRepositoryBase&lt;T&gt;">
+    <Position X="8.5" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.IRepositoryWrapper">
+    <Position X="17.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.IStateRepository">
+    <Position X="11" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Contracts.ITenantRepository">
+    <Position X="14.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

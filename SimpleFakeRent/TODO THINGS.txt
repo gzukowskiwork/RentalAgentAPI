@@ -1,0 +1,16 @@
+﻿I Implement automapper for displaying less data for complex models
+	1 https://code-maze.com/automapper-net-core/
+	2
+	3
+II Implement authorisation and authentication
+	1 JWT
+	2 https://www.youtube.com/watch?v=M6AkbBaDGJE&list=PLUOequmGnXxOgmSDWU7Tl6iQTsOtyjtwU&index=11&t=0s&fbclid=IwAR0N1OIzaMIz_qrqHMYM95vpCuQjaabmNxd_h5BBxoZcafoIM2nk0FcWkcQ
+	3
+III Implement logging
+	1
+	2
+	3
+IV Implement invoice calcultion and generating output file
+	1
+	2
+	3

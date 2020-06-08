@@ -1,0 +1,140 @@
+﻿.header {
+    text-align: center;
+    color: black;
+    padding-bottom: 35px;
+}
+
+.date {
+    text-align: right;
+    padding-top: 2em;
+    font-size: 20px;
+}
+
+.sellDate {
+    color: green;
+    font-size: 20px;
+}
+
+.paymentDate {
+    color: red;
+    font-size: 20px;
+}
+
+
+.logo {
+    width: 50%;
+    float: left;
+    margin: auto;
+}
+
+table.positions {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+    table.positions tr td {
+        font-size: 16px;
+        text-align: center;
+    }
+
+.addressWrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+    .addressWrapper table {
+        padding-bottom: 2em;
+        display: inline-table;
+        padding-right: 2em;
+    }
+
+.invoicePositionsWrapper .positions {
+    padding-bottom: 2em;
+}
+
+.invoicePositionsWrapper {
+    margin-bottom: 1em;
+}
+
+/* Address boxes borders
+.addressWrapper .landlordAddress,
+.addressWrapper .propertyAddress,
+.addressWrapper .tenantAddress{
+    border: 3px solid gray;
+}*/
+
+table.landlordAddress {
+    float: left;
+}
+
+    table.landlordAddress tr th {
+        text-align: left;
+    }
+
+
+
+table.tenantAddress {
+    float: right;
+}
+
+    table.tenantAddress tr th {
+        text-align: left;
+    }
+
+
+
+table.propertyAddress {
+    float: right;
+}
+
+    table.propertyAddress tr th {
+        text-align: left;
+    }
+
+table.positions th {
+    text-align: center;
+}
+
+table.positions td, th {
+    border: 1px solid gray;
+    padding: 15px;
+    font-size: 20px;
+}
+
+table.positions td {
+    text-align: right;
+}
+
+table.positions th {
+    background-color: none;
+    color: black;
+}
+
+table.positions tr td:nth-child(2) {
+    text-align: left;
+}
+
+table.positions tr td:nth-child(1) {
+    text-align: center;
+}
+
+.comment {
+    margin-left: 5%;
+    font-size: 24px;
+    padding-top: 1em;
+    text-align: left;
+    color: red;
+}
+
+.bankAccount {
+    margin-left: 5%;
+    font-size: 24px;
+    padding-top: 1em;
+    float: left;
+    text-align: left;
+    color: black;
+}
+   
